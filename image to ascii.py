@@ -15,7 +15,7 @@ text= open("output.txt","w")
 def char(inp):
     return(ascii_ar[math.floor(inp*increment)])
 
-img = Image.open("Desktop/pika.jpg")
+img = Image.open("<enter image path>")
 img = img.convert('RGB')
 w, h = img.size
 down_scale=0.5
